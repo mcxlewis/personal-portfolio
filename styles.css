@@ -15,16 +15,27 @@ body {
 }
 
 .head {
-  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .navbar {
   background: linear-gradient(
   transparent 0%, 
   #aaabcd 75%,
     transparent
     );
-    height: 50px;
+    /* height: 50px; */
+    align-items: center;
+}
+
+.external-link, .navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.welcome-section {
+  margin-left: 30px;
 }
 
   .project-tile-1 {
@@ -68,20 +79,16 @@ body {
     gap: 10px;
   }
 
-  .external-link, .navbar {
-    text-align: right;
-    position: fixed;
-    width: 100%;
-  }
-  .welcome-section {
-    margin-left: 30px;
-    grid: 2;
-  }
 
   a {
     padding-right: 6px;
   }
 
-  .head-left {
-    text-align: left;
+  .external-link {
+    text-align: right;
+    bottom: 20px;
+  }
+  
+  .head:not(.head-left) {
+    text-align: right;
   }
