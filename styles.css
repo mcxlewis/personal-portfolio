@@ -3,6 +3,11 @@
     font-weight: 400;
   }
 }
+
+:root {
+  --tiffany: #81D8D0;
+}
+
 * {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
@@ -14,17 +19,18 @@ body {
   margin: 0 auto;
 }
 
-.head {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: right;
+  background: linear-gradient(
+    var(--tiffany),  
+  transparent
+  );
 }
 .navbar {
-  background: linear-gradient(
-  transparent 0%, 
-  #aaabcd 75%,
-    transparent
-    );
+
     /* height: 50px; */
     align-items: center;
 }
@@ -79,6 +85,16 @@ body {
     gap: 10px;
   }
 
+.footer {
+  bottom: 0;
+  position: fixed;
+  font-size: 14px;
+  width: 100%;
+  background: linear-gradient(
+  transparent,
+  var(--tiffany))
+;
+}
 
   a {
     padding-right: 6px;
@@ -86,9 +102,6 @@ body {
 
   .external-link {
     text-align: right;
-    bottom: 20px;
+    bottom: 40px;
   }
   
-  .head:not(.head-left) {
-    text-align: right;
-  }
