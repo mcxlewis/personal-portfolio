@@ -18,10 +18,11 @@
 body {
   margin: 0 auto;
 }
-
+.header, .footer {
+  width: 100%;
+}
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   text-align: right;
   background: linear-gradient(
@@ -29,43 +30,43 @@ body {
   transparent
   );
 }
-.navbar {
-
-    /* height: 50px; */
-    align-items: center;
-}
 
 .external-link, .navbar {
   position: fixed;
   width: 100%;
 }
 
-.welcome-section {
+.welcome-text {
+  margin: 0;
+  font-size: 30px;
   margin-left: 30px;
 }
 
-  .project-tile-1 {
+.survey {
     border: 1px solid black;
     height: 200px;
     width: 160px;
     grid-column: 1 / 2;
     grid-row: 1;
-  }
-  .project-tile-2 {
+} 
+
+.tribute-page {
     border: 1px solid black;
     height: 200px;
     width: 160px;
     grid-column: 2 / 2;
     grid-row: 1;
-  }
-  .project-tile-3 {
+}
+
+.technical-doc {
     border: 1px solid black;
     height: 200px;
     width: 160px;
     grid-column: 1 / 2;
     grid-row: 2;
-  }
-  .project-tile-4 {
+ }
+
+.landing-page {
     border: 1px solid black;
     height: 200px;
     width: 160px;
@@ -89,11 +90,11 @@ body {
   bottom: 0;
   position: fixed;
   font-size: 14px;
-  width: 100%;
   background: linear-gradient(
   transparent,
   var(--tiffany))
 ;
+  text-align: center;
 }
 
   a {
