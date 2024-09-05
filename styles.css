@@ -46,32 +46,25 @@ body {
     border: 1px solid black;
     height: 200px;
     width: 160px;
-    grid-column: 1 / 2;
-    grid-row: 1;
 } 
 
 .tribute-page {
     border: 1px solid black;
     height: 200px;
     width: 160px;
-    grid-column: 2 / 2;
-    grid-row: 1;
 }
 
 .technical-doc {
     border: 1px solid black;
     height: 200px;
     width: 160px;
-    grid-column: 1 / 2;
-    grid-row: 2;
- }
+}
 
 .landing-page {
     border: 1px solid black;
     height: 200px;
     width: 160px;
-    grid-column: 2 / 2;
-    grid-row: 2;
+
   }
 
   .projects {
@@ -80,10 +73,6 @@ body {
     align-items: center;
     margin: auto;
     width: 80%;
-    display: grid;
-    grid-template-rows: 2;
-    grid-template-columns: 2;
-    gap: 10px;
   }
 
 .footer {
