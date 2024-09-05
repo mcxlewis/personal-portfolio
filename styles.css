@@ -29,10 +29,12 @@ body {
     var(--tiffany),  
   transparent
   );
+  position: absolute;
+  top: 0;
 }
 
 .external-link, .navbar {
-  position: fixed;
+  position: absolute;
   width: 100%;
 }
 
