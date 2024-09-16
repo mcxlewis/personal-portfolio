@@ -44,6 +44,11 @@ body {
   margin-left: 30px;
 }
 
+.about-me {
+  width: 75%;
+  margin-top: 50px;
+}
+
 .survey {
     border: 1px solid black;
     height: 200px;
@@ -70,11 +75,15 @@ body {
   }
 
   .projects {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
     margin: auto;
     width: 80%;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "survey tribute-page"
+      "technical-doc landing-page"
   }
 
 .footer {
