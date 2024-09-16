@@ -32,25 +32,22 @@ h1 {
 .projects {
   display: grid;
   gap: 50px;
+  margin: 80px;
   grid-template-columns: auto auto;
-  grid-auto-rows: minmax(300px, auto);
+  grid-auto-rows: minmax(auto, auto);
 }
 
 .project-tile {
-
 }
 
 .external-links {
-  bottom: 30px;
 }
 
 .footer {
-  bottom: 0;
-  top: auto;
   left: 0;
   right: 0;
   text-align: center;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar, .external-links {
