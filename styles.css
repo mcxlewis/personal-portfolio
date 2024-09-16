@@ -1,108 +1,59 @@
 @media (hover: hover) {
-      a:hover {
-    font-weight: 400;
-  }
-}
-
-:root {
-  --tiffany: #81D8D0;
+  a:hover {
+    font-weight: bold;
+ }
 }
 
 * {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  color: black;
+  font-family: 'Baskerville', sans-serif;
   text-decoration: none;
+  color: black;
 }
-  
+
 body {
-  margin: 0 auto;
-}
-.header, .footer {
-  width: 100%;
-}
-.header {
-  display: flex;
-  align-items: center;
-  text-align: right;
-  background: linear-gradient(
-    var(--tiffany),  
-  transparent
-  );
-  position: absolute;
-  top: 0;
-}
-
-.external-link, .navbar {
-  position: absolute;
-  width: 100%;
-}
-
-.welcome-text {
   margin: 0;
-  font-size: 30px;
-  margin-left: 30px;
 }
 
-.about-me {
-  width: 75%;
-  margin-top: 50px;
+.navbar {
+  top: 0;
+  width: 100%;
+  text-align: right;
+  margin-top: 10px;
 }
 
-.survey {
-    border: 1px solid black;
-    height: 200px;
-    width: 160px;
-} 
+.welcome-section {
 
-.tribute-page {
-    border: 1px solid black;
-    height: 200px;
-    width: 160px;
 }
 
-.technical-doc {
-    border: 1px solid black;
-    height: 200px;
-    width: 160px;
+h1 {
+  font-weight: 500;
 }
 
-.landing-page {
-    border: 1px solid black;
-    height: 200px;
-    width: 160px;
+.project-links {
+  
+}
 
-  }
-
-  .projects {
-
-    margin: auto;
-    width: 80%;
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: auto;
-    grid-template-areas: 
-      "survey tribute-page"
-      "technical-doc landing-page"
-  }
+.external-links {
+  bottom: 30px;
+}
 
 .footer {
   bottom: 0;
-  position: fixed;
-  font-size: 14px;
-  background: linear-gradient(
-  transparent,
-  var(--tiffany))
-;
+  top: auto;
+  left: 0;
+  right: 0;
   text-align: center;
+  margin-bottom: 10px;
 }
 
-  a {
-    padding-right: 6px;
-  }
+.navbar, .external-links {
+  right: 30px;
+}
 
-  .external-link {
-    text-align: right;
-    bottom: 40px;
-  }
-  
+.external-links, .navbar, .footer {
+  position: absolute;
+}
+
+a {
+  padding-left: 10px;
+}
