@@ -29,8 +29,15 @@ h1 {
   font-weight: 500;
 }
 
-.project-links {
-  
+.projects {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto;
+  grid-auto-rows: minmax(300px, auto);
+}
+
+.project-tile {
+
 }
 
 .external-links {
